@@ -65,44 +65,63 @@
 				</div>
 			</header>
 			<main>
-				<!-- main text board -->
-				<div class="col-xs-12 well text-center">
-					<h1>Probably the Best Website Ever</h1>
-					<p>This is my attempt at bootstrap hopefully it looks decent</p>
-				</div>
+				<div class="container">
+					<div class="row">
+					<!-- main text board -->
+					<div class="col-xs-12 well text-center">
+						<h1>Probably the Best Website Ever</h1>
+						<p>This is my attempt at bootstrap hopefully it looks decent</p>
+					</div>
 
-				<!--content section-->
-				<div class="row">
-					<div class="col-md-4 well text-center">
-						<div class="well">
-							<h4>Section 1</h4>
-							<p>blah</p>
+					<!--content section-->
+					<div class="row">
+						<div class="col-md-4 well text-center">
+							<div class="well">
+								<h4>Section 1</h4>
+								<ol>
+									<li>blah 1</li>
+									<li>blah 2</li>
+									<li>blah 3</li>
+									<li>blah 4</li>
+								</ol>
+							</div>
+						</div>
+						<div class="col-md-4 well text-center">
+							<div class="well">
+								<h4>Section 2</h4>
+								<ol>
+									<li>blah blah</li>
+									<li>blah blah dos</li>
+									<li>blah blah 3</li>
+									<li>blah blah 7</li>
+								</ol>
+							</div>
+						</div>
+						<div class="col-md-4 well text-center">
+							<div class="well">
+								<h4>Section 3</h4>
+								<ol>
+									<li>blah blah blah uno</li>
+									<li>blah blah blah 5</li>
+									<li>blah blah blah 3</li>
+									<li>blah blah blah 15</li>
+								</ol>
+							</div>
 						</div>
 					</div>
-					<div class="col-md-4 well text-center">
-						<div class="well">
-							<h4>Section 2</h4>
-							<p>blah blah</p>
+					<!-- another content section-->
+					<div class="row">
+						<div class="col-md-6 well text-center">
+							<div class="well">
+								<h4>section 5</h4>
+							</div>
+						</div>
+						<div class="col-md-6 well text-center">
+							<div class="well">
+								<h4>section 6</h4>
+							</div>
 						</div>
 					</div>
-					<div class="col-md-4 well text-center">
-						<div class="well">
-							<h4>Section 3</h4>
-							<p>blah blah blah</p>
-						</div>
-					</div>
-				</div>
-				<!-- another content section-->
-				<div class="row">
-					<div class="col-md-6">
-						<div class="well">
-							<h4>section 5</h4>
-						</div>
-					</div>
-					<div class="col-md-6">
-						<div class="well">
-							<h4>section 6</h4>
-						</div>
 					</div>
 				</div>
 			</main>
@@ -110,21 +129,21 @@
 		<footer>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-6 text-center">
 						<div class="foot-content">
-							content here
+							<h6>More stuff</h6>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 text-center">
 						<div class="foot-content">
-							content here
+							<h6>More stuff here too</h6>
 						</div>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-xs-12">
 						<div class="copyright text-center">
-							&copy; 2016 Foo!
+							&copy; 2016 Yup!
 						</div>
 					</div>
 				</div>
