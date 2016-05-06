@@ -75,7 +75,7 @@
 
 					<!--content section-->
 					<div class="row">
-						<div class="col-md-4 well text-center">
+						<div class="col-md-4">
 							<div class="well">
 								<h4>Section 1</h4>
 								<ol>
@@ -86,7 +86,7 @@
 								</ol>
 							</div>
 						</div>
-						<div class="col-md-4 well text-center">
+						<div class="col-md-4">
 							<div class="well">
 								<h4>Section 2</h4>
 								<ol>
@@ -97,7 +97,7 @@
 								</ol>
 							</div>
 						</div>
-						<div class="col-md-4 well text-center">
+						<div class="col-md-4">
 							<div class="well">
 								<h4>Section 3</h4>
 								<ol>
