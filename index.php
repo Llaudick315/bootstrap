@@ -32,6 +32,103 @@
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 		<title>Bootstrap Practice</title>
-
 	</head>
+	<body class="sfooter">
+		<div class="sfooter-content">
+
+			<header>
+				<div class="container">
+					<!-- begin bootstrap navbar -->
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<i class="fa fa-th fa-2x fa-spin" aria-hidden="true"></i>
+						</button>
+						<a class="navbar-brand" href="#">Lucas Bootstrap</a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="main-menu">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="/">Home</a></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More Items <span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="http://PGAtour.com">PGA Tour</a></li>
+									<li><a href="https://google.com">Google</a></li>
+									<li><a href="https://apple.com">Apple</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div>
+			</header>
+			<main>
+				<!-- main text board -->
+				<div class="col-xs-12 well text-center">
+					<h1>Probably the Best Website Ever</h1>
+					<p>This is my attempt at bootstrap hopefully it looks decent</p>
+				</div>
+
+				<!--content section-->
+				<div class="row">
+					<div class="col-md-4 well text-center">
+						<div class="well">
+							<h4>Section 1</h4>
+							<p>blah</p>
+						</div>
+					</div>
+					<div class="col-md-4 well text-center">
+						<div class="well">
+							<h4>Section 2</h4>
+							<p>blah blah</p>
+						</div>
+					</div>
+					<div class="col-md-4 well text-center">
+						<div class="well">
+							<h4>Section 3</h4>
+							<p>blah blah blah</p>
+						</div>
+					</div>
+				</div>
+				<!-- another content section-->
+				<div class="row">
+					<div class="col-md-6">
+						<div class="well">
+							<h4>section 5</h4>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="well">
+							<h4>section 6</h4>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="foot-content">
+							content here
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="foot-content">
+							content here
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="copyright text-center">
+							&copy; 2016 Foo!
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
 </html>
